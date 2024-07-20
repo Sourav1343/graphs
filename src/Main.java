@@ -13,6 +13,7 @@ import javafx.application.Application;
  * Uses a queue.
  * Applications: Shortest path in unweighted graphs, level order traversal, finding connected components.
  * 2. Shortest Path Algorithmsfdggfdg
+ *
  * Dijkstra's Algorithm:
  *
  * Finds the shortest path from a single source node to all other nodes in a weighted graph.
