@@ -85,8 +85,11 @@ public class GraphApp extends Application {
 
     private String getListString(List<List<Integer>> list) {
         StringBuilder sb = new StringBuilder();
+
         for (int i = 0; i < list.size(); i++) {
+
             sb.append("Vertex ").append(i).append(" -> ");
+
             sb.append(String.join(" ", list.get(i).toString().replaceAll("[\\[\\],]", ""))).append("\n");
         }
         return sb.toString();
