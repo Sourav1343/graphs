@@ -15,6 +15,7 @@ public class GraphApp extends Application {
     private List<List<Integer>> edges;
 
     public static void main(String[] args) {
+
         launch(args);
     }
 
